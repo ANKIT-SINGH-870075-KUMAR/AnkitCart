@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.chocolates {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    background: none;
+    margin: 1vmax;
+    width: 20%;
+    padding: 15px;
+    cursor: pointer;
+    font: 600 1vmax sans-serif;
+    transition: all 1s;
+}
+
+button[id="chocolate-1"]{
+    border: 2px solid rgb(101, 173, 187) ;
+}
+button[id="chocolate-2"]{
+    border: 2px solid rgb(25, 25, 26) ;
+}
+button[id="chocolate-3"]{
+    border: 2px solid rgb(255, 255, 255) ;
+}
+button[id="chocolate-4"]{
+    border: 2px solid rgb(130, 175, 190) ;
+}
+button[id="chocolate-5"]{
+    border: 2px solid rgb(238, 194, 33) ;
+}
+button[id="chocolate-6"]{
+    border: 2px solid rgb(70, 44, 4) ;
+}
+button[id="chocolate-7"]{
+    border: 2px solid rgb(238, 153, 243) ;
+}
+button[id="chocolate-8"]{
+    border: 2px solid rgb(101, 173, 187) ;
+}
+
+button[id="chocolate-1"]:hover{
+    box-shadow: 0 10px 20px rgb(101, 173, 187);
+    background-color: rgb(101, 173, 187);
+}
+button[id="chocolate-2"]:hover{
+    box-shadow: 0 10px 20px rgb(25, 25, 26);
+    background-color: rgb(25, 25, 26);
+    color: white;
+}
+button[id="chocolate-3"]:hover{
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+button[id="chocolate-4"]:hover{
+    box-shadow: 0 10px 20px rgb(130, 175, 190);
+    background-color: rgb(130, 175, 190);
+}
+button[id="chocolate-5"]:hover{
+    box-shadow: 0 10px 20px rgb(238, 194, 33);
+    background-color: rgb(238, 194, 33);
+}
+button[id="chocolate-6"]:hover{
+    box-shadow: 0 10px 20px rgb(70, 44, 4);
+    background-color: rgb(70, 44, 4);
+}
+button[id="chocolate-7"]:hover{
+    box-shadow: 0 10px 20px rgb(238, 153, 243);
+    background-color: rgb(238, 153, 243);
+}
+button[id="chocolate-8"]:hover{
+    box-shadow: 0 10px 20px rgb(101, 173, 187);
+    background-color: rgb(101, 173, 187);
+}
+
+.total-price {
+    margin-top: 10px;
+}
+
+.total-price span {
+    font-weight: bold;
+}
